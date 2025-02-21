@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# WeatherX 🌤️  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**WeatherX** is a lightweight and responsive weather application designed to provide real-time weather updates for cities across India. It fetches accurate data using the OpenWeather API and presents it in an easy-to-read format.  
 
-## Available Scripts
+## Features  
+✅ Live weather updates for Indian cities  
+✅ Displays temperature, humidity, and wind speed  
+✅ Sunrise & sunset timings  
+✅ User-friendly and responsive UI  
+✅ Fast and lightweight with minimal dependencies  
+✅ Supports metric units for easy readability  
 
-In the project directory, you can run:
+## Preview  
+Check out how **WeatherX** looks in action:  
+![WeatherX Preview](image.png)
 
-### `npm start`
+## Tech Stack  
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **API:** OpenWeather API  
+- **Icons:** React Icons  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Instructions  
+1. Clone the repository and navigate to the project folder.  
+2. Install all required dependencies using:  
+   `npm install`
+3. Get a free API key from OpenWeather.
+4. Replace the API key in WeatherCard.jsx.
+5. Start the development server:
+`npm run dev` 
+Open http://localhost:5173/ in your browser to view the app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Future Enhancements  
+🔹 Weekly weather forecast  
+🔹 Location-based weather detection  
+🔹 Dark mode support  
+🔹 Improved UI animations  
+🔹 Air quality index display  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Troubleshooting  
+- If the API request fails, ensure your API key is correct and not expired.  
+- Make sure you have an active internet connection while fetching data.  
+- If styling appears broken, verify that Tailwind CSS is properly configured.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing  
+Want to enhance **WeatherX**? Feel free to contribute by improving the UI, adding new features, or optimizing the code. Fork the repo and submit a pull request!  
